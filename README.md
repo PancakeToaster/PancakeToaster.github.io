@@ -18,12 +18,12 @@ This project contains a professional-grade control system for a VEX V5 robot, fe
 - [**Chapter 6: Pure Pursuit and Boomerang**](./chapter-06-Pure-Pursuit-and-Boomerang.md)
 - [**Chapter 7: Pure Pursuit**](./chapter-07-Pure-Pursuit.md)
 - [**Chapter 8: Boomerang**](./chapter-08-Boomerang.md)
-- [**Chapter 9: Autonomous Troubleshooting Guide 🛠️**](./chapter-09-Autonomous-Troubleshooting-Guide-🛠️.md)
+- [**Chapter 9: Autonomous Troubleshooting Guide**](./chapter-09-Autonomous-Troubleshooting-Guide.md)
 - [**Chapter 10: Documentation of Programming**](./chapter-10-Documentation-of-Programming.md)
 
 ### Appendices
 - [**Appendix A: Robot Control Library Documentation**](./appendix-A-Robot-Control-Library-Documentation.md)
-- [**Appendix B: The Robot Coding Glossary 📖**](./appendix-B-The-Robot-Coding-Glossary-📖.md)
+- [**Appendix B: The Robot Coding Glossary**](./appendix-B-The-Robot-Coding-Glossary.md)
 
 ---
 
