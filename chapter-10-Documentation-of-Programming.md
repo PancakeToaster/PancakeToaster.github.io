@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Chapter 10: Documentation of Programming"
+nav_order: 11
+---
+
 To create a professional, high-scoring engineering notebook for a competition like VEX, you need to treat it like a scientific journal. Judges look for a "repeatable" process—meaning if another team found your notebook, they could build and program your exact robot just by reading it.
 
 Here is a detailed guide on how to document and tabulate your data effectively.

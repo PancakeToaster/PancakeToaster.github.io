@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Chapter 8: Boomerang"
+nav_order: 9
+---
+
 # Boomerang Algorithm Breakdown (`motor-control.cpp`)
 
 The Boomerang algorithm is a "Pure Pursuit" variation. Instead of driving straight to a point, it aims for a "carrot point" slightly in front of the target to create a smooth curve.

@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Chapter 7: Pure Pursuit"
+nav_order: 8
+---
+
 ### 🛠️ Detailed Breakdown: How it Works
 
 The `moveToPoint(x, y, timeout, maxSpeed)` function runs through a fast internal loop (usually every 10–20 milliseconds) following these steps:

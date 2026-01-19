@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Chapter 4: PID Algorithm Breakdown"
+nav_order: 5
+---
+
 The PID (Proportional-Integral-Derivative) controller is the "correction engine" that ensures the robot reaches a target smoothly.
 
 ### **Parameter Definitions**

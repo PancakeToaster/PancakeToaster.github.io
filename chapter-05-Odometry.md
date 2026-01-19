@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Chapter 5: Odometry"
+nav_order: 6
+---
+
 # 1. What is Odometry? (The Simple Version)
 
 Imagine you are in a dark room with a blindfold on. You are standing on a giant piece of grid paper. You know you started at the exact center $(0, 0)$.

@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Chapter 3: PID Explained"
+nav_order: 4
+---
+
 To make PID as simple as possible, let’s stop thinking about math and start thinking about **driving a car.**
 
 Imagine you are sitting in the passenger seat, and your job is to tell the driver how to push the gas pedal to stop exactly at a red light.

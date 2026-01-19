@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Chapter 2: Motor Control Algorithms"
+nav_order: 3
+---
+
 ### 1. Bang-Bang (On/Off)
 
 **Complexity:** ⭐ This is the simplest form of control. It’s either 100% power or 0% power.

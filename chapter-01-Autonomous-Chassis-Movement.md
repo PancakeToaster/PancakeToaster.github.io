@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Chapter 1: Autonomous Chassis Movement"
+nav_order: 2
+---
+
 ### 1. The Logic Flow
 
 The code follows a very simple "If/Else" pattern. Imagine you want your robot to drive to a distance of **24 inches** using your **Odometry** or **Inertial Sensor** for tracking.

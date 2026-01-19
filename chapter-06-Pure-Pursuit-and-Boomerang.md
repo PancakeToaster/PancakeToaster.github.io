@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Chapter 6: Pure Pursuit and Boomerang"
+nav_order: 7
+---
+
 # 1. What is Pure Pursuit? 
 
 ### The "Carrot on a Stick" Trick

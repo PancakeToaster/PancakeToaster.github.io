@@ -1,3 +1,8 @@
 theme: jekyll-theme-minimal
-title: Homepage
-description: 123
+title: Robot Control Documentation
+description: Professional-grade control system documentation for VEX V5 robots.
+remote_theme: just-the-docs/just-the-docs
+
+search_enabled: true
+aux_links:
+  "GitHub Repository": "https://github.com/PancakeToaster/PancakeToaster.github.io"

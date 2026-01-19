@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Chapter 9: Autonomous Troubleshooting Guide"
+nav_order: 10
+---
+
 ## 1. PID Issues (Stuttering & Overshooting)
 
 | **Symptom**            | **Probable Cause**                                 | **Fix**                                                      |

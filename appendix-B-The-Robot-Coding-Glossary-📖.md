@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Appendix B: The Robot Coding Glossary"
+nav_order: 91
+---
+
 ### **General Concepts**
 
 - **Autonomous:** The period of a match where the robot moves by itself using code, with no help from a human driver.

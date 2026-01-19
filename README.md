@@ -1,6 +1,29 @@
+---
+layout: home
+title: Home
+nav_order: 1
+---
+
 # 📋 Robot Control Project Documentation
 
 This project contains a professional-grade control system for a VEX V5 robot, featuring high-precision Odometry, PID control, and Boomerang pathfinding.
+
+## 📚 Table of Contents
+
+- [**Chapter 1: Autonomous Chassis Movement**](./chapter-01-Autonomous-Chassis-Movement.md)
+- [**Chapter 2: Motor Control Algorithms**](./chapter-02-Motor-Control-Algorithms.md)
+- [**Chapter 3: PID Explained**](./chapter-03-PID-Explained.md)
+- [**Chapter 4: PID Algorithm Breakdown**](./chapter-04-PID-Algorithm-Breakdown.md)
+- [**Chapter 5: Odometry**](./chapter-05-Odometry.md)
+- [**Chapter 6: Pure Pursuit and Boomerang**](./chapter-06-Pure-Pursuit-and-Boomerang.md)
+- [**Chapter 7: Pure Pursuit**](./chapter-07-Pure-Pursuit.md)
+- [**Chapter 8: Boomerang**](./chapter-08-Boomerang.md)
+- [**Chapter 9: Autonomous Troubleshooting Guide 🛠️**](./chapter-09-Autonomous-Troubleshooting-Guide-🛠️.md)
+- [**Chapter 10: Documentation of Programming**](./chapter-10-Documentation-of-Programming.md)
+
+### Appendices
+- [**Appendix A: Robot Control Library Documentation**](./appendix-A-Robot-Control-Library-Documentation.md)
+- [**Appendix B: The Robot Coding Glossary 📖**](./appendix-B-The-Robot-Coding-Glossary-📖.md)
 
 ---
 

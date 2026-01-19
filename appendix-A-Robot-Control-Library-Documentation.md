@@ -1,6 +1,8 @@
-layout: page
-title: "Appendix A. Robot Control Library Documentation.md"
-permalink: /appendix-a
+---
+layout: default
+title: "Appendix A: Robot Control Library Documentation"
+nav_order: 90
+---
 
 ## 1. `pid.cpp` (The PID Controller Class)
 
