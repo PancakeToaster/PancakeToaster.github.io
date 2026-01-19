@@ -1,3 +1,7 @@
+layout: page
+title: "Appendix A. Robot Control Library Documentation.md"
+permalink: /appendix-a
+
 ## 1. `pid.cpp` (The PID Controller Class)
 
 The `PID` class provides a feedback loop mechanism that calculates the precise power needed to reach a target while minimizing overshoot.
