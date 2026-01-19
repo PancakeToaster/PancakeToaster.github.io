@@ -1,8 +1,9 @@
 ---
 layout: default
-title: "Chapter 8: Boomerang"
+title: "Chapter 8: Boomerang Algorithm Breakdown"
 nav_order: 9
 ---
+# Chapter 8: Boomerang Algorithm Breakdown
 
 # Boomerang Algorithm Breakdown (`motor-control.cpp`)
 

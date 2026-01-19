@@ -3,6 +3,7 @@ layout: default
 title: "Chapter 3: PID Explained"
 nav_order: 4
 ---
+# Chapter 3: PID Explained
 
 To make PID as simple as possible, let’s stop thinking about math and start thinking about **driving a car.**
 
@@ -82,6 +83,8 @@ return (kp * current_error) + (ki * sum_error) + (kd * derivative);
 
 When you start testing your robot, always set **I** and **D** to zero. Only change **P** until the robot moves. Once it moves but starts bouncing, add a little **D** to "soak up" the bounce. Only add **I** if the robot is consistently stopping short.
 
+---
+
 ## 🛠️ The 3-Step Tuning Guide (The "Trial and Error" Method)
 
 Before you start, make sure your robot is on a full field with a fresh battery. Set your `ki` and `kd` to **0** in your code.
@@ -123,6 +126,7 @@ Most of the time, you don't even need `ki`. But if your robot stops exactly 0.5 
 2. **The Goal:** The robot should settle near the target, wait half a second, and then "nudge" itself perfectly onto the line.
 
 ---
+
 ### 💡 Final Pro-Tips for Students
 
 - **Fresh Battery:** A battery at 100% pushes harder than a battery at 50%. Always tune with a battery around 80-90%.

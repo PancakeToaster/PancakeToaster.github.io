@@ -5,7 +5,7 @@ nav_order: 1
 permalink: /
 ---
 
-# 📋 Robot Control Project Documentation
+# 📋 Temporary Robot Control Project Documentation
 
 This project contains a professional-grade control system for a VEX V5 robot, featuring high-precision Odometry, PID control, and Boomerang pathfinding.
 

@@ -3,6 +3,7 @@ layout: default
 title: "Chapter 6: Pure Pursuit and Boomerang"
 nav_order: 7
 ---
+# Chapter 6: Pure Pursuit and Boomerang
 
 # 1. What is Pure Pursuit? 
 
@@ -26,6 +27,8 @@ Every second, the robot asks itself three questions:
 - **"Where am I facing?"** It looks at its **Odometry** (those tracking wheels on your 1/16" poly mounts) to see its current angle.
     
 - **"How much do I need to turn?"** This is the **Curvature**. Instead of stopping to turn, it just tells one side of the drivetrain to spin a little faster than the other. This lets it "arc" toward the target.
+
+---
     
 
 ### 2. The Mathematical Steps
@@ -103,6 +106,7 @@ double turn_output = turnPID.update(getAngleError(target_angle));
 ```
 
 ---
+
 ### What is a "Carrot Point"?
 
 In your code, the **Carrot Point** is a virtual goal that "dangles" in front of the robot.
@@ -116,6 +120,7 @@ In the `boomerang` function, the carrot point isn't just the final destination $
 Think of the **Boomerang** code like this: If you try to run directly at a chair and sit down, you might hit the chair or sit on the edge. But if you imagine a "Ghost Chair" (the **Carrot Point**) 2 feet behind the real chair, you will naturally walk toward the ghost chair and "land" perfectly in the real chair while facing the right way.
 
 ---
+
 # 3. Examples of Boomerang & Carrot Logic
 
 ### **Example 1: The "Wide Sweep" (High Lead)**

@@ -3,6 +3,7 @@ layout: default
 title: "Chapter 4: PID Algorithm Breakdown"
 nav_order: 5
 ---
+# Chapter 4: PID Algorithm Breakdown
 
 The PID (Proportional-Integral-Derivative) controller is the "correction engine" that ensures the robot reaches a target smoothly.
 
@@ -15,6 +16,8 @@ The PID (Proportional-Integral-Derivative) controller is the "correction engine"
 | `kd` (Derivative)       | The "brake." Slows the robot down as it approaches the target to prevent overshooting.     |
 | `small_error_tolerance` | How close to the target is "good enough" for a precise stop.                               |
 | `small_error_duration`  | How many milliseconds the robot must stay in that "good enough" zone to exit.              |
+
+---
 
 ### **Code Logic Breakdown**
 
@@ -66,6 +69,8 @@ double PID::update(double input) {
   return proportional + integral + derivative_term; // Output voltage to motors.
 }
 ```
+
+---
 
 ## Usage Examples with Code Snippets
 ### **Scenario A: Turning using the PID Controller**

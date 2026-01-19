@@ -3,6 +3,7 @@ layout: default
 title: "Chapter 5: Odometry"
 nav_order: 6
 ---
+# Chapter 5: Odometry
 
 # 1. What is Odometry? (The Simple Version)
 

@@ -3,7 +3,7 @@ layout: default
 title: "Chapter 2: Motor Control Algorithms"
 nav_order: 3
 ---
-
+# Chapter 2: Motor Control Algorithms
 ### 1. Bang-Bang (On/Off)
 
 **Complexity:** ⭐ This is the simplest form of control. It’s either 100% power or 0% power.
@@ -11,6 +11,8 @@ nav_order: 3
 - **How it works:** If your robot is behind the target, go full speed. If it's past the target, stop.
     
 - **The Problem:** It’s very jerky. Imagine driving a car by only slamming the gas or slamming the brakes—it’s bad for your gears and very shaky.
+
+---
     
 
 ### 2. Slew Rate (Ramping)
@@ -20,6 +22,8 @@ nav_order: 3
 - **How it works:** It limits how fast the motor power can change. If you push the joystick to 100, the code "ramps" the power (20... 40... 60... 80... 100) instead of jumping instantly.
     
 - **The Problem:** It doesn't help with accuracy; it just makes the robot smoother.
+
+---
     
 
 ### 3. PID Control (The Standard)
@@ -33,6 +37,8 @@ nav_order: 3
 - **D (Derivative):** The "brake" that slows the robot down so it doesn't overshoot.
     
 - **The Problem:** It can be hard to "tune" (finding the right numbers for Kp, Ki, and Kd).
+
+---
     
 
 ### 4. Feedforward (Prediction)
@@ -42,7 +48,8 @@ nav_order: 3
 - **How it works:** Instead of waiting for an error to happen, you tell the motor exactly how much power it needs to overcome things like gravity or friction.
     
 - **Example:** If you have a heavy arm, you give the motor a little "base power" just to hold it up, then let the PID do the actual moving.
-    
+
+---     
 
 ### 5. Motion Profiling (Trapezoidal / S-Curve)
 

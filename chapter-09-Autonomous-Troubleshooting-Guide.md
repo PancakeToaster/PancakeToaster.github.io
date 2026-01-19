@@ -3,6 +3,7 @@ layout: default
 title: "Chapter 9: Autonomous Troubleshooting Guide"
 nav_order: 10
 ---
+# Chapter 9: Autonomous Troubleshooting Guide
 
 ## 1. PID Issues (Stuttering & Overshooting)
 

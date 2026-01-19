@@ -3,6 +3,7 @@ layout: default
 title: "Chapter 7: Pure Pursuit"
 nav_order: 8
 ---
+# Chapter 7: Pure Pursuit
 
 ### 🛠️ Detailed Breakdown: How it Works
 
